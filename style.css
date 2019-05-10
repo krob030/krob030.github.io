@@ -4,7 +4,7 @@ table {
      border-collapse: collapse;
    }
 thead {
-background-color:cce6ff;
+background-color:#cce6ff;
 }
 tbody>tr:nth-child(odd) {
 background-color: #ddff99;
