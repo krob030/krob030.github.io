@@ -1,16 +1,21 @@
 .navbar{
     background-color: white;
+    max-height: 60px;
 }
 .navigation .navbar-brand{
     color: white; 
-    margin-left: 50px; 
+    margin-left: 100px; 
     font-weight: bold; 
     background-color: #45B39D;
     font-family: 'Times New Roman', Times, serif;
+    padding: 12px 12px 12px;
 }
 .navigation .navbar-nav{
     margin-left: 800px;
     background-color: white; 
+}
+.dropdown-menu{
+    margin-left: 940px;
 }
 .container{
     color: #45B39D;
@@ -19,6 +24,7 @@
     color: #45B39D;
     width:90%;
     height:90%;
+    margin: 0 auto;
 }
 p{
     color: gray;
@@ -36,7 +42,12 @@ body{
 }
 .box {
     margin-top: 60px; 
-    margin-bottom: 62px; 
+    margin-bottom: 60px; 
     padding: 10px 20px 15px; 
     background-color: white;
 }
+@media 
+only screen and (max-width: 1000px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+	table, thead, tbody, th, td, tr { 
+	}
